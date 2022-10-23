@@ -1,12 +1,12 @@
 <h1>Age Calculator</h1>
 <p>Enter age:</p>
-<input id="age" type="text"/>
+<input id="age" type="number"/>
 <button onclick="calculateAge()">Enter</button>
 <script>
 function calculateAge() {
 let age = document.getElementById('age').value;
 setTimeout(() => {
-alert(age);
+alert('Your age: ' + age);
 }, 1000);
 }
 </script>
