@@ -1,0 +1,11 @@
+<p>Enter age:</p>
+<input id="age" type="text"/>
+<button onclick="calculateAge()">Enter</button>
+<script>
+function calculateAge() {
+let age = document.getElementById('age').value;
+setTimeout(() => {
+alert(age);
+}, 1000);
+}
+</script>
